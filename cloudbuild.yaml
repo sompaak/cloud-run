@@ -2,4 +2,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'us-docker.pkg.dev/terra-252715/hello-app/hello:latest', '.']
 images: 
-- us-docker.pkg.dev/terra-252715/hello-app/hello:latest
+- us-docker.pkg.dev/terra-252715/hello-app/hello:v1.2
