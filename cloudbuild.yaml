@@ -2,7 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'us-docker.pkg.dev/terra-252715/hello-app/hello:v1.0', '.']
 images: 
-- us-docker.pkg.dev/terra-252715/hello-app/hello:v1.0
+- us-docker.pkg.dev/terra-252715/hello-app-adapting-killdeer/hello:v1.0
 
 # test
 # test
