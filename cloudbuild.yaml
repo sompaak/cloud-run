@@ -2,7 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'us-central1-docker.pkg.dev/terra-252715/hello-app-epic-sawfly/hello:v1.0', '.']
 images: 
-- us-central1-docker.pkg.dev/terra-252715/hello-app-epic-sawfly/hello:v1..0
+- us-central1-docker.pkg.dev/terra-252715/hello-app-epic-sawfly/hello:v1.0
 
 # test
 # test
